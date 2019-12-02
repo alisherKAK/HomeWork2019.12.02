@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "AddNote";
+}
+
+    <form action="/DiseasHistory/AddNotePost" method="post">
+        Specialist: <input type="text" name="Specialist" value="" /><br />
+        Specialist Full Name: <input type="text" name="SpecialistFullName" value="" /><br />
+        Diagnosis: <input type="text" name="Diagnosis" value="" /><br />
+        Complaints: <input type="text" name="Complaints" value="" /><br />
+        Visit Date: <input type="date" name="VisitDate" value="" /><br />
+        Patient Iin: <input type="text" name="PatientIin" value="" /><br />
+        <input type="submit" name="sub" value="Add" />
+    </form>
+<br />
+<a href="/DiseasHistory/LookToPatients">Back</a>

@@ -1,0 +1,5 @@
+C:\Users\калабаева\source\repos\HomeWork2019.12.02.Web\HomeWork2019.12.02.AbstractModels\bin\Debug\HomeWork2019.12.02.AbstractModels.dll
+C:\Users\калабаева\source\repos\HomeWork2019.12.02.Web\HomeWork2019.12.02.AbstractModels\bin\Debug\HomeWork2019.12.02.AbstractModels.pdb
+C:\Users\калабаева\source\repos\HomeWork2019.12.02.Web\HomeWork2019.12.02.AbstractModels\obj\Debug\HomeWork2019.12.02.AbstractModels.dll
+C:\Users\калабаева\source\repos\HomeWork2019.12.02.Web\HomeWork2019.12.02.AbstractModels\obj\Debug\HomeWork2019.12.02.AbstractModels.pdb
+C:\Users\калабаева\source\repos\HomeWork2019.12.02.Web\HomeWork2019.12.02.AbstractModels\obj\Debug\HomeWork2019.12.02.AbstractModels.csprojAssemblyReference.cache

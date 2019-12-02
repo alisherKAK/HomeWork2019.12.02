@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewBag.Title = "Add";
+}
+
+    <form action="/Patient/AddPost" method="post">
+        IIN: <input type="text" name="Iin" value="" /><br />
+        Full Name: <input type="text" name="FullName" value="" /><br />
+        Address: <input type="text" name="Address" value="" /><br />
+        Phone: <input type="text" name="Phone" value="" /><br />
+        <input type="submit" name="sub" value="Add" />
+    </form>
+    <a href="/DiseasHistory/LookToPatients">Back</a>
+

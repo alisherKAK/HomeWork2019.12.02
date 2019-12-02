@@ -1,0 +1,45 @@
+﻿@model IEnumerable<HomeWork2019._12._02.Models.Disease>
+@{
+    ViewBag.Title = "LookToPatients";
+}
+<form action="/DiseasHistory/LookToPatients" method="get">
+    Name or Iin: <input type="text" name="data" value="" /><br />
+    <input type="submit" name="sub" value="Search" />
+</form>
+<br />
+<table class="table">
+    <thead>
+        <tr>
+            <td>Patient Iin</td>
+            <td>Specialist</td>
+            <td>Specialist Full Name</td>
+            <td>Diagnosis</td>
+            <td>Complaints</td>
+            <td>Visit Date</td>
+            <td>Patient Full Name</td>
+            <td>Patient Address</td>
+            <td>Patient Phone</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var diseas in Model)
+        {
+            <tr>
+                <td>@diseas.Patient.Iin</td>
+                <td>@diseas.Specialist</td>
+                <td>@diseas.SpecialistFullName</td>
+                <td>@diseas.Diagnosis</td>
+                <td>@diseas.Complaints</td>
+                <td>@diseas.VisitDate</td>
+                <td>@diseas.Patient.FullName</td>
+                <td>@diseas.Patient.Address</td>
+                <td>@diseas.Patient.Phone</td>
+            </tr>
+        }
+    </tbody>
+</table>
+<br />
+<a href="/Patient/Add">Add Patient</a>
+<br />
+<a href="/DiseasHistory/AddNote">Add Note</a>
+
